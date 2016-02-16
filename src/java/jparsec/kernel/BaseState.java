@@ -24,7 +24,7 @@ public class BaseState<E> implements State<E> {
 	}
 
 	public int index() {
-		return current;
+		return this.current;
 	}
 
 	//在开始解析之前，保存本次解析时State的起始位置

@@ -1,4 +1,4 @@
-package test;
+package JparsecTest;
 
 import jparsec.Char.Eq;
 import jparsec.kernel.State;
@@ -12,6 +12,7 @@ public class ChoiceTest extends Base {
 	public void test() throws Exception{
 		State<Character> state = newState("hhello");
 		
+		@SuppressWarnings("unchecked")
 		Choice<Character, Character> choice = new Choice<Character, Character>(
 				new Eq<Character>('d'),
 				new Eq<Character>('d'),

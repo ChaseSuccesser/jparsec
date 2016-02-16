@@ -1,4 +1,4 @@
-package test;
+package JparsecTest;
 
 import jparsec.Char.Eq;
 import jparsec.kernel.State;

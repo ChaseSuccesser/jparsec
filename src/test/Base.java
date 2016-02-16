@@ -1,4 +1,4 @@
-package test;
+package JparsecTest;
 
 import jparsec.kernel.BaseState;
 import jparsec.kernel.State;
